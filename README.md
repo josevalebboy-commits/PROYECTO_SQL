@@ -141,7 +141,7 @@ ORDER BY TOTAL_PROFIT DESC
 
 ![I1](./PICTURES/PREGUNTA_07.PNG)
 
-8. **¿CUALES VENTAS ACUMULADAS POR PERIODO?**
+8. **¿CUALES SON LAS VENTAS ACUMULADAS POR PERIODO?**
 
 ```SQL
 WITH VENTAS_POR_AÑO AS (
@@ -162,7 +162,7 @@ ORDER BY AÑO
 
 ![I1](./PICTURES/PREGUNTA_8.PNG)
 
-9. **¿CUALES ES EL MARGEN DEL TOP 15 PRODUCTOS MAS VENDIDOS?**
+9. **¿CUAL ES EL MARGEN DEL TOP 15 PRODUCTOS MAS VENDIDOS?**
 
 ```SQL
 SELECT TOP 15
@@ -184,7 +184,7 @@ ORDER BY TOTAL_VENTAS DESC
 
 ![I1](./PICTURES/PREGUNTA_9.PNG)
 
-10. **¿CUALES ES EL TICKET PROMEDIO ENTRE CLIENTES RECURRENTES Y NUEVOS?**
+10. **¿CUAL ES EL TICKET PROMEDIO ENTRE CLIENTES RECURRENTES Y NUEVOS?**
 
 ```SQL
 SELECT
@@ -208,4 +208,4 @@ GROUP BY is_repeat_customer;
 - Si bien es cierto los articulos electronicos lideran en ventas totales, el margen de procentaje no es tan alto en comparacion a los comestibles o articulos de cuidado personal.
 - Si nos basaramos en el margen porcentual del profit, los mejores canales de ventas estan en las website y en las redes sociales. Se deberian implementar campañas mas agresivas en estos canales.
 - En el evolutivo de ventas por perido, practicamente se mantiene constante. Por periodo se tienen un total de ventas de 35 millones aprox. El 2021 fue el periodo con mas ventas.
-- Si bien es cierto el total de las ventas es mayor en importa respecto a los clientes recurrentes, el promedio del profit es mayor en los clientes nuevos.
+- Si bien es cierto el total de las ventas es mayor en importe respecto a los clientes recurrentes, el promedio del profit es mayor en los clientes nuevos.
